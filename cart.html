@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="all.min.css" />
+  </head>
+  <body>
+ <!-- Navbar Start's Here -->
+ <header class="border-1 mb-2">
+  <nav class="navbar navbar-expand-lg fixed-top bg-white">
+    <a class="navbar-brand" href="#"
+      >Jet-Dragon <img src="dragon-solid.svg" height="30px" width="40px"
+    /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="Home.html">Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="category.html">Categories</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="cart.html">My Cart</a>
+        </li>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="About-us.html">About Us</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Contact-us.html">Contact Us</a>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!-- Navbar End's Here -->
+
+    <div class="row" id="product-list" style="margin-top: 55px;"></div>
+
+    <script src="jquery.js"></script>
+    <script>
+      $(document).ready(() => {
+            let productData = localStorage.getItem("product");
+            if (productData) {
+                let product = JSON.parse(productData);
+                let productHTML = `
+                    <div class="col-6 col-lg-3 m-3">
+                        <div class="card border-black shadow-sm" data-name="${product.name}" data-type="${product.type}" data-price="${product.price}" data-img="${product.img}" data-alt="${product.alt}" data-description="${product.description}">
+                            <div class="text-center">
+                                <img src="${product.img}" class="card-img-top mt-2" alt="${product.alt}">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">${product.name}</h5>
+                                <p class="card-text"><b>Price:</b> ${product.price}</p>
+                                <p class="card-text"><b>Type:</b> ${product.type}</p>
+                            </div>
+                        </div>
+                    </div>`;
+                $("#product-list").append(productHTML);
+            } else {
+                $("#product-list").html("<p>No items in your cart.</p>");
+            }
+        });
+    </script>
+  </body>
+</html>

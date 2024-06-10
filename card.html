@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="all.min.css" />
+    <style>
+      .product-page {
+        margin-top: 100px;
+      }
+      .product-image {
+        max-width: 100%;
+        height: auto;
+      }
+      .product-details {
+        padding: 20px;
+      }
+      .price {
+        color: #b12704;
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .buy-section {
+        margin-top: 20px;
+      }
+      .description {
+        margin-top: 30px;
+      }
+      .review-section {
+        margin-top: 30px;
+      }
+      .review {
+        margin-bottom: 20px;
+      }
+      .star-rating {
+        color: #ffd700;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar Start's Here -->
+    <header class="border-1 mb-2">
+      <nav class="navbar navbar-expand-lg fixed-top bg-white">
+        <a class="navbar-brand" href="#"
+          >Jet-Dragon <img src="dragon-solid.svg" height="30px" width="40px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="category.html">Categories</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="cart.html">My Cart</a>
+            </li>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="About-us.html">About Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Contact-us.html">Contact Us</a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!-- Navbar End's Here -->
+
+    <div class="container product-page">
+      <div class="row">
+        <div class="col-md-6">
+          <img id="product-img" class="product-image" alt="Product Image" />
+        </div>
+
+        <div class="col-md-6 product-details">
+          <h1 id="product-name"></h1>
+          <p id="product-type" class="text-muted"></p>
+          <p id="product-price" class="price"></p>
+          <div class="buy-section">
+            <button class="btn btn-primary btn-lg btn-cart">Add to Cart</button>
+            <button class="btn btn-success btn-lg btn-buy">Buy Now</button>
+          </div>
+          <div class="description">
+            <h4>Description</h4>
+            <p id="product-description"></p>
+          </div>
+
+          <div class="review-section my-4">
+            <div class="review">
+              <label for="comments">Comments : </label>
+              <textarea
+                name="comments"
+                id="comments"
+                placeholder="Enter your Commment!!!"
+                cols="60"
+                rows="8"
+              ></textarea>
+              <input type="text" class="cName" id="cName" placeholder="Your name" /><br /><br />
+              <input type="submit" class="btn" value="Submit" />
+            </div>
+            <div class="cReview">
+              <h4>Customer Reviews</h4>
+            <div class="review mt-3">
+              <!-- <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9734;</div> -->
+              <p>
+                <strong>John Doe</strong> - "Great product, highly recommend!"
+              </p>
+            </div>
+            <div class="review">
+              <!-- <div class="star-rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div> -->
+              <p>
+                <strong>Jane Smith</strong> - "Excellent quality and fast
+                shipping."
+              </p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="jquery.js"></script>
+    <script>
+$(document).ready(function () {
+    // Retrieve the product object from local storage
+    let productData = localStorage.getItem("selectedProduct");
+    let product = null;
+
+    if (productData) {
+        product = JSON.parse(productData);
+
+        // Display the product details
+        $("#product-name").text(product.name);
+        $("#product-type").text(product.type);
+        $("#product-price").text(`Price: $${product.price}`);
+        $("#product-img").attr("src", product.img);
+        $("#product-img").attr("alt", product.alt);
+        $("#product-description").text(product.description);
+    } else {
+        // Handle the case where no product data is found
+        $(".product-details").html("<p>No product details available.</p>");
+    }
+
+    $(".btn-cart").click(() => {
+        if (product) {
+            // Save product to cart
+            localStorage.setItem("product", JSON.stringify(product));
+            let c = confirm("Do you want to add this item in your cart?");
+            if (c) {
+                window.location.href = "cart.html";
+            }
+        } else {
+            alert("No product selected.");
+        }
+    });
+
+    $(".btn-buy").click(() => {
+        window.location.href = "Buy.html";
+    });
+
+    $(".btn").click(() => {
+        let review = `<p><strong>${$(".cName").val()}</strong> - "${$("#comments").val()}"</p>`;
+        $(".cReview").append(review);
+    });
+});
+    </script>
+  </body>
+</html>

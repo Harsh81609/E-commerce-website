@@ -1,0 +1,162 @@
+[
+  {
+    "img": "t-shirt photo.jpg",
+    "name": "Regular Fit T-Shirt for Men",
+    "description": "Product color might slightly vary due to photographic lighting sources or your monitor settings",
+    "price": "INR 200",
+    "type": "Clothing for Men",
+    "alt": "Men's t-shirt"
+  },
+  {
+    "img": "t-shirt w photo.jpg",
+    "name": "Regular Fit T-Shirt for Women",
+    "description": "This attractive shirt will look make you look attractive and will make you stand out of the crowd. You can wear this classic tie dye tshirt for going to a party, club, date, casual meetings & will definately gives you comfort feeling",
+    "price": "INR 300",
+    "type": "Clothing for Women",
+    "alt": "Women's t-shirt"
+  },
+  {
+    "img": "electronic tv.jpg",
+    "name": "Xiaomi 125 cm Smart Google TV (Black)",
+    "description": "Resolution : 4K Ultra HD (3840 x 2160) Resolution | Refresh Rate  60 Hertz | Viewing angle  178 degrees\nConnectivity: Dual Band Wi-Fi | 3 HDMI | 2 USB ports| Optical port| AV port| Ethernet port | 3.5 mm jack | Bluetooth 5.0\nSound: 30 Watts Output | Dolby Audio | DTS-X | DTS Virtual: X\nSmart TV Features: Google TV, Built-In WiFi, Chromecast built-in, 2GB RAM, 8GB ROM, Supported Apps: Netflix, Prime Video, YouTube, Zee5, etc., MEMC Engine , eARC (Dolby Atmos Pass-through), ALLM (Auto Low Latency Mode), and Google Assistant Operation\nDisplay: 4K Dolby Vision | HDR 10 | HLG | Reality Flow MEMC | Vivid Picture Engine | Wide Colour Gamut- DCI-P3 94% (typ)\nWarranty Information: 1 Year Warranty on Product and 2 Years Warranty on Panel",
+    "price": "INR 33,999",
+    "type": "Electronic",
+    "alt": "TV"
+  },
+  {
+    "img": "coffee table.webp",
+    "name": "Coffee Table(Brown & White)",
+    "description": "Versatile: About Space’s accent coffee table for living room is one of the must-needed add-ons. This flat packed DIY wooden table is beautifully designed to enhance the look of your living room. Buying furniture without being planned, affects your decoration and overwhelms the space. Choosing the right one for your home or office not only improves overall beauty but keeps your stress away as well. The dimensions are Length 100cm/39' Breadth 40cm/16' Height 39cm/15'\nModern Contemporary Design: This centre table comes flat packed which is built up of engineered wood with modern contemporary design and pre-laminated matte finish that is durable and long-lasting. It comes in S shaped and has 4 semi closed compartments to store and grab your laptop for a movie, a fun board game or two, and even your tea set\nUsage: The open design in this teapoy provides plenty of space for storage and display options. Whether in living room, office, den or cafe, the coffee table will work efficiently to keep your space clean and tidy\nDual purpose: When not used as a coffee stand it can be used to store your playstation, set top box, router, remotes, magazines, speakers, decors, etc.\nAssembly Instruction: The product comes flat-packed with detailed instructions to assemble as well as the required tools. It is a fun weekend DIY for 2 people",
+    "price": "INR 2999",
+    "type": "Furniture",
+    "alt": "Coffee Table"
+  },
+  {
+    "img": "bag.jpg",
+    "name": "Skybags Casual Backpack ",
+    "description": "Combination of functional & safety features in stylish design, Soft mesh back with 8 mm foam padded 2 Main Compartment, 1 Slip In Pocket inside the bag, Printed Design, Mesh bottle holder on the side,\nWater Resistance Level: Not Water Resistant\nSize: 35 x 13 x 46 cms",
+    "price": "INR 449",
+    "type": "Luggage & Bags",
+    "alt": "Bagpack"
+  },
+  {
+    "img": "The Bhagavad Gita.jpg",
+    "name": "The Bhagavad Gita",
+    "description": "In this insightful rendition of the Bhagavad Gita, Swami Nikhilananda provides a profound interpretation of the sacred text. Exploring the timeless wisdom and teachings of Lord Krishna, he illuminates the path to self-realization and offers practical guidance for navigating life's challenges.\n\nGain profound wisdom from the timeless teachings of the Bhagavad Gita. Discover practical guidance for finding purpose and fulfilment in life. Explore the profound insights of Lord Krishna on duty and righteousness. Learn to overcome challenges and attain inner peace and harmony. Experience the transformative power of the Bhagavad Gita's teachings.",
+    "price": "INR 300",
+    "type": "Book",
+    "alt": "The Bhagavad Gita"
+  },
+  {
+    "img": "Balls.jpg",
+    "name": "jaspo PVC T-20 Soft Cricket Balls",
+    "description": "1. Soft PVC Construction: The cricket balls are constructed using Soft PVC, ensuring a comfortable feel during play and minimizing the risk of injury. The softness of the material also makes it suitable for use in various playing environments.\n2. Vibrant Color: The eye-catching color not only adds a touch of style to your game but also enhances visibility, making it easier to track the ball during play.\n3. Standard Size: These cricket balls adhere to the standard size regulations, providing an authentic playing experience. Perfect for casual games with friends or more competitive matches, these balls offer consistent performance.\n4.Pack of Three: This pack includes three cricket balls, allowing you to keep the game going without interruption. Whether you're practicing your batting skills or engaging in a full-fledged match, you'll always have spare balls at your disposal.\n5. Versatile Usage: The Soft PVC construction makes these cricket balls suitable for various playing surfaces. Whether you're on grass, concrete, or any other cricket-appropriate surface, the Jaspo T-20 Soft PVC Cricket Balls deliver reliable performance.\n6.Durable Design: Built to withstand the rigors of the game, these cricket balls boast a durable design that ensures longevity. Play after play, these balls maintain their shape and performance.\n7.Ideal for All Skill Levels: Whether you're a beginner learning the ropes or an experienced player refining your techniques, these cricket balls cater to all skill levels. Enjoy a responsive and consistent performance every time you step onto the field.\n8.What is in the box :- 3 pvc soft Cricket Balls",
+    "price": "INR 319",
+    "type": "Sports",
+    "alt": "Cricket balls"
+  },
+  {
+    "img": "Kettle.webp",
+    "name": "IBELL Stainless Steel Electric Kettle(Silver)",
+    "description": "Kettle with 1.8 LTR and 1500 Watts\n1 Year standard warranty + 1 Year additional warranty on free registration.(Registration should be done within 30 days from the date of delivery)",
+    "price": "INR 669",
+    "type": "Kitchen Application",
+    "alt": "product-alt"
+  },
+  {
+    "img": "t-shirt photo.jpg",
+    "name": "Regular Fit T-Shirt for Men",
+    "description": "Product color might slightly vary due to photographic lighting sources or your monitor settings",
+    "price": "INR 200",
+    "type": "Clothing for Men",
+    "alt": "Men's t-shirt"
+  },
+  {
+    "img": "t-shirt w photo.jpg",
+    "name": "Regular Fit T-Shirt for Women",
+    "description": "This attractive shirt will look make you look attractive and will make you stand out of the crowd. You can wear this classic tie dye tshirt for going to a party, club, date, casual meetings & will definately gives you comfort feeling",
+    "price": "INR 300",
+    "type": "Clothing for Women",
+    "alt": "Women's t-shirt"
+  },
+  {
+    "img": "electronic tv.jpg",
+    "name": "Xiaomi 125 cm Smart Google TV (Black)",
+    "description": "Resolution : 4K Ultra HD (3840 x 2160) Resolution | Refresh Rate  60 Hertz | Viewing angle  178 degrees\nConnectivity: Dual Band Wi-Fi | 3 HDMI | 2 USB ports| Optical port| AV port| Ethernet port | 3.5 mm jack | Bluetooth 5.0\nSound: 30 Watts Output | Dolby Audio | DTS-X | DTS Virtual: X\nSmart TV Features: Google TV, Built-In WiFi, Chromecast built-in, 2GB RAM, 8GB ROM, Supported Apps: Netflix, Prime Video, YouTube, Zee5, etc., MEMC Engine , eARC (Dolby Atmos Pass-through), ALLM (Auto Low Latency Mode), and Google Assistant Operation\nDisplay: 4K Dolby Vision | HDR 10 | HLG | Reality Flow MEMC | Vivid Picture Engine | Wide Colour Gamut- DCI-P3 94% (typ)\nWarranty Information: 1 Year Warranty on Product and 2 Years Warranty on Panel",
+    "price": "INR 33,999",
+    "type": "Electronic",
+    "alt": "TV"
+  },
+  {
+    "img": "coffee table.webp",
+    "name": "Coffee Table(Brown & White)",
+    "description": "Versatile: About Space’s accent coffee table for living room is one of the must-needed add-ons. This flat packed DIY wooden table is beautifully designed to enhance the look of your living room. Buying furniture without being planned, affects your decoration and overwhelms the space. Choosing the right one for your home or office not only improves overall beauty but keeps your stress away as well. The dimensions are Length 100cm/39' Breadth 40cm/16' Height 39cm/15'\nModern Contemporary Design: This centre table comes flat packed which is built up of engineered wood with modern contemporary design and pre-laminated matte finish that is durable and long-lasting. It comes in S shaped and has 4 semi closed compartments to store and grab your laptop for a movie, a fun board game or two, and even your tea set\nUsage: The open design in this teapoy provides plenty of space for storage and display options. Whether in living room, office, den or cafe, the coffee table will work efficiently to keep your space clean and tidy\nDual purpose: When not used as a coffee stand it can be used to store your playstation, set top box, router, remotes, magazines, speakers, decors, etc.\nAssembly Instruction: The product comes flat-packed with detailed instructions to assemble as well as the required tools. It is a fun weekend DIY for 2 people",
+    "price": "INR 2999",
+    "type": "Furniture",
+    "alt": "Coffee Table"
+  },
+  {
+    "img": "bag.jpg",
+    "name": "Skybags Casual Backpack ",
+    "description": "Combination of functional & safety features in stylish design, Soft mesh back with 8 mm foam padded 2 Main Compartment, 1 Slip In Pocket inside the bag, Printed Design, Mesh bottle holder on the side,\nWater Resistance Level: Not Water Resistant\nSize: 35 x 13 x 46 cms",
+    "price": "INR 449",
+    "type": "Luggage & Bags",
+    "alt": "Bagpack"
+  },
+  {
+    "img": "The Bhagavad Gita.jpg",
+    "name": "The Bhagavad Gita",
+    "description": "In this insightful rendition of the Bhagavad Gita, Swami Nikhilananda provides a profound interpretation of the sacred text. Exploring the timeless wisdom and teachings of Lord Krishna, he illuminates the path to self-realization and offers practical guidance for navigating life's challenges.\n\nGain profound wisdom from the timeless teachings of the Bhagavad Gita. Discover practical guidance for finding purpose and fulfilment in life. Explore the profound insights of Lord Krishna on duty and righteousness. Learn to overcome challenges and attain inner peace and harmony. Experience the transformative power of the Bhagavad Gita's teachings.",
+    "price": "INR 300",
+    "type": "Book",
+    "alt": "The Bhagavad Gita"
+  },
+  {
+    "img": "Balls.jpg",
+    "name": "jaspo PVC T-20 Soft Cricket Balls",
+    "description": "1. Soft PVC Construction: The cricket balls are constructed using Soft PVC, ensuring a comfortable feel during play and minimizing the risk of injury. The softness of the material also makes it suitable for use in various playing environments.\n2. Vibrant Color: The eye-catching color not only adds a touch of style to your game but also enhances visibility, making it easier to track the ball during play.\n3. Standard Size: These cricket balls adhere to the standard size regulations, providing an authentic playing experience. Perfect for casual games with friends or more competitive matches, these balls offer consistent performance.\n4.Pack of Three: This pack includes three cricket balls, allowing you to keep the game going without interruption. Whether you're practicing your batting skills or engaging in a full-fledged match, you'll always have spare balls at your disposal.\n5. Versatile Usage: The Soft PVC construction makes these cricket balls suitable for various playing surfaces. Whether you're on grass, concrete, or any other cricket-appropriate surface, the Jaspo T-20 Soft PVC Cricket Balls deliver reliable performance.\n6.Durable Design: Built to withstand the rigors of the game, these cricket balls boast a durable design that ensures longevity. Play after play, these balls maintain their shape and performance.\n7.Ideal for All Skill Levels: Whether you're a beginner learning the ropes or an experienced player refining your techniques, these cricket balls cater to all skill levels. Enjoy a responsive and consistent performance every time you step onto the field.\n8.What is in the box :- 3 pvc soft Cricket Balls",
+    "price": "INR 319",
+    "type": "Sports",
+    "alt": "Cricket balls"
+  },
+  {
+    "img": "Kettle.webp",
+    "name": "IBELL Stainless Steel Electric Kettle(Silver)",
+    "description": "Kettle with 1.8 LTR and 1500 Watts\n1 Year standard warranty + 1 Year additional warranty on free registration.(Registration should be done within 30 days from the date of delivery)",
+    "price": "INR 669",
+    "type": "Kitchen Application",
+    "alt": "product-alt"
+  },
+  {
+    "img": "t-shirt photo.jpg",
+    "name": "Regular Fit T-Shirt for Men",
+    "description": "Product color might slightly vary due to photographic lighting sources or your monitor settings",
+    "price": "INR 200",
+    "type": "Clothing for Men",
+    "alt": "Men's t-shirt"
+  },
+  {
+    "img": "t-shirt w photo.jpg",
+    "name": "Regular Fit T-Shirt for Women",
+    "description": "This attractive shirt will look make you look attractive and will make you stand out of the crowd. You can wear this classic tie dye tshirt for going to a party, club, date, casual meetings & will definately gives you comfort feeling",
+    "price": "INR 300",
+    "type": "Clothing for Women",
+    "alt": "Women's t-shirt"
+  },
+  {
+    "img": "electronic tv.jpg",
+    "name": "Xiaomi 125 cm Smart Google TV (Black)",
+    "description": "Resolution : 4K Ultra HD (3840 x 2160) Resolution | Refresh Rate  60 Hertz | Viewing angle  178 degrees\nConnectivity: Dual Band Wi-Fi | 3 HDMI | 2 USB ports| Optical port| AV port| Ethernet port | 3.5 mm jack | Bluetooth 5.0\nSound: 30 Watts Output | Dolby Audio | DTS-X | DTS Virtual: X\nSmart TV Features: Google TV, Built-In WiFi, Chromecast built-in, 2GB RAM, 8GB ROM, Supported Apps: Netflix, Prime Video, YouTube, Zee5, etc., MEMC Engine , eARC (Dolby Atmos Pass-through), ALLM (Auto Low Latency Mode), and Google Assistant Operation\nDisplay: 4K Dolby Vision | HDR 10 | HLG | Reality Flow MEMC | Vivid Picture Engine | Wide Colour Gamut- DCI-P3 94% (typ)\nWarranty Information: 1 Year Warranty on Product and 2 Years Warranty on Panel",
+    "price": "INR 33,999",
+    "type": "Electronic",
+    "alt": "TV"
+  },
+  {
+    "img": "coffee table.webp",
+    "name": "Coffee Table(Brown & White)",
+    "description": "Versatile: About Space’s accent coffee table for living room is one of the must-needed add-ons. This flat packed DIY wooden table is beautifully designed to enhance the look of your living room. Buying furniture without being planned, affects your decoration and overwhelms the space. Choosing the right one for your home or office not only improves overall beauty but keeps your stress away as well. The dimensions are Length 100cm/39' Breadth 40cm/16' Height 39cm/15'\nModern Contemporary Design: This centre table comes flat packed which is built up of engineered wood with modern contemporary design and pre-laminated matte finish that is durable and long-lasting. It comes in S shaped and has 4 semi closed compartments to store and grab your laptop for a movie, a fun board game or two, and even your tea set\nUsage: The open design in this teapoy provides plenty of space for storage and display options. Whether in living room, office, den or cafe, the coffee table will work efficiently to keep your space clean and tidy\nDual purpose: When not used as a coffee stand it can be used to store your playstation, set top box, router, remotes, magazines, speakers, decors, etc.\nAssembly Instruction: The product comes flat-packed with detailed instructions to assemble as well as the required tools. It is a fun weekend DIY for 2 people",
+    "price": "INR 2999",
+    "type": "Furniture",
+    "alt": "Coffee Table"
+  }
+]
